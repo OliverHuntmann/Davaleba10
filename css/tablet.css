@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .header{
+        grid-column: 1/-1;
+    }
+    .main{
+        width: 530px;
+        height: 300px;
+        margin-left: 230px;
+        margin-top: 748px;
+        position: absolute;
+    }
+    .menu{
+        grid-row-start: 3;
+        grid-row-end: 5;
+        height: 700px;
+    }
+    .banner{
+        margin-top: 1048px;
+        margin-left: 230px;
+        width: 530px;
+        height: 150px;
+        position: absolute;
+        color: black;
+
+    }
+    .extra{
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 450px;
+        position: absolute;
+    }
+    .image{
+        width: 181px;
+        height: 250px;
+        margin-left: 350px;
+        margin-top: 450px;
+        position: absolute;
+    }
+    /* აქაურობაც :D */
+}

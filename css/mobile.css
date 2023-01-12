@@ -1,0 +1,57 @@
+@media (max-width: 480px) {
+    .container{
+        display: grid;
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6"
+        "item7"
+        ;
+    }
+    .header{
+        width: 480px;
+        grid-area: item1;
+    }
+    .menu{
+        width: 480px;
+        height: 100px;
+        grid-area: item2;
+    }
+    .hero{
+        width: 480px;
+        height: 250px;
+        grid-area: item3;
+    }
+    .main{
+        width: 480px;
+        height: 200px;
+        grid-area: item4;
+        margin-left: 0px;
+        margin-top: 398px;
+    }
+    .banner{
+        width: 480px;
+        height: 150px;
+        grid-area: item5;
+        margin-left: 0px;
+        margin-top: 598px;
+    }
+    .extra{
+        width: 480px;
+        height: 150px;
+        grid-area: item6;
+        margin-left: -144px;
+        margin-top: 748px;
+    }
+    .image{
+        width: 480px;
+        height: 150px;
+        grid-area: item7;
+        margin-left: -144px;
+        margin-top: 888px;
+    }
+    /* და აქაც :D */
+}
